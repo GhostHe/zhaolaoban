@@ -3,7 +3,8 @@ body, html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  background-color: #f0f0f0; }
+  background-color: #f0f0f0;
+  font-family: 'Microsoft Yahei Light',Lantinghei,'Microsoft Yahei',verdana,sans-serif; }
 
 li {
   list-style-type: none; }
@@ -73,6 +74,8 @@ li {
     border-radius: 26px; }
     .searchBox .m_weui-search-bar .weui-search-bar__label {
       text-align: right; }
+      .searchBox .m_weui-search-bar .weui-search-bar__label img {
+        margin-right: 10px; }
 
 .buttonGroup {
   padding: 6px 0;
@@ -286,6 +289,10 @@ li {
 
 .containe_categories .m_weui-search-bar .weui-search-bar__label {
   text-align: left; }
+  .containe_categories .m_weui-search-bar .weui-search-bar__label img {
+    margin-left: 10px; }
+  .containe_categories .m_weui-search-bar .weui-search-bar__label span {
+    color: #dbdbdc; }
 
 .categories {
   overflow: hidden;
@@ -384,10 +391,14 @@ li {
     width: 50px;
     float: left; }
     .topBar .top_menu .menu_button.black {
-      padding: 11px 15px; }
+      padding: 16px 15px; }
       .topBar .top_menu .menu_button.black img {
-        height: 22px;
+        height: 20px;
         display: block; }
+  .topBar .m_weui-search-bar .weui-search-bar__label {
+    text-align: left; }
+    .topBar .m_weui-search-bar .weui-search-bar__label img {
+      margin-left: 10px; }
 
 .userInfo {
   background-color: #ffffff;
@@ -1310,21 +1321,44 @@ li {
       font-size: 17px; }
 
 .m_weui-search-bar {
+  padding: 10px;
   background-color: #ffffff; }
   .m_weui-search-bar .weui-search-bar__form {
     background-color: #f0f0f0;
-    border-radius: 26px; }
+    border-radius: 32px; }
   .m_weui-search-bar .weui-search-bar__box {
-    border-radius: 26px; }
+    height: 32px;
+    border-radius: 32px; }
+    .m_weui-search-bar .weui-search-bar__box img {
+      position: absolute;
+      left: 10px;
+      top: 7px;
+      height: 17px;
+      display: inline-block;
+      vertical-align: middle; }
+    .m_weui-search-bar .weui-search-bar__box .weui-search-bar__input {
+      width: 90%;
+      line-height: 24px;
+      height: 24px; }
   .m_weui-search-bar .weui-search-bar__label {
-    /*text-align: right;*/
+    height: 32px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
     color: #9b9b9b;
     background: #f0f0f0;
     border-radius: 26px; }
+    .m_weui-search-bar .weui-search-bar__label img {
+      height: 17px;
+      vertical-align: middle; }
+    .m_weui-search-bar .weui-search-bar__label span {
+      color: #d7d7d7;
+      line-height: 32px; }
   .m_weui-search-bar .weui-search-bar__form:after {
     border: 0px solid #e6e6ea;
     background: #f0f0f0;
-    border-radius: 26px; }
+    border-radius: 32px; }
 
 .m_weui-search-bar:after,
 .m_weui-search-bar:before {
@@ -1348,6 +1382,8 @@ li {
   bottom: 0px;
   left: 0px;
   background-color: #ffffff; }
+  .m_weui-tabbar .weui-tabbar__item.weui-bar__item--on .weui-tabbar__label {
+    color: #e59692; }
 
 .m_weui-media-box .weui-media-box__hd {
   width: 120px;
