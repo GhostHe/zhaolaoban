@@ -71,9 +71,13 @@ li {
       text-overflow: ellipsis;
       white-space: nowrap; }
   .searchBox .m_weui-search-bar {
-    border-radius: 26px; }
+    border-radius: 28px; }
+    .searchBox .m_weui-search-bar .weui-search-bar__box {
+      height: 28px;
+      border-radius: 32px; }
     .searchBox .m_weui-search-bar .weui-search-bar__label {
-      text-align: right; }
+      text-align: right;
+      height: 28px; }
       .searchBox .m_weui-search-bar .weui-search-bar__label img {
         margin-right: 10px; }
 

@@ -76,9 +76,14 @@ li{
         }
     }
     .m_weui-search-bar{
-        border-radius: 26px;
+        border-radius: 28px;
+        .weui-search-bar__box {
+            height: 28px;
+            border-radius: 32px;
+        }
         .weui-search-bar__label {
             text-align: right;
+            height: 28px;
             img{
                 margin-right: 10px;
             }
