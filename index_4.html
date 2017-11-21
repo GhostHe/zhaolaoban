@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=0">
+    <title>填写定单</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/weui.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/jquery-weui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="lib/js/jquery-2.1.4.js"></script>
+    <script src="lib/js/jquery-weui.min.js"></script>
+    <script src="lib/js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div class="containe containe_fillInOrder">
+        <div class="userInfo">
+            <div class="weui-flex m_weui-flex">
+                <div class="container">
+                    <p class="msg">收货人：<span>张小娴</span> <span class="right">182132444335 <span class="default">默认</span></span></p>
+                    <p class="address">
+                        <img class="local" src="img/icon_local.png">
+                        广东省深圳市罗湖区紫藤花街道枫林小区中民时代广场东座101号
+                        <img class="arrow" src="img/arrow_R.png">
+                    </p>
+                </div>
+            </div>
+            <div class="border">
+                <img src="img/boder.jpg">
+            </div>
+        </div>
+        <div class="productList">
+            <div class="weui-media-box weui-media-box_appmsg m_weui-media-box list_item">
+                <div class="weui-media-box__hd">
+                    <img class="weui-media-box__thumb" src="img/product_list.jpg">
+                </div>
+                <div class="weui-media-box__bd">
+                    <p class="weui-media-box__title">小米（MI）小米电视4A 标准版 55英寸 HDR 2GB+8GB 四核64位高性能处理器</p>
+                    <div class="detail">
+                        <span class="color">颜色：红色</span>
+                        <span class="weight">重量：14.6kg</span>
+                        <span class="count">X1</span>
+                    </div>
+                    <p class="price">￥5799</p>
+                </div>
+            </div>
+            <div class="weui-media-box weui-media-box_appmsg m_weui-media-box list_item">
+                <div class="weui-media-box__hd">
+                    <img class="weui-media-box__thumb" src="img/product_list.jpg">
+                </div>
+                <div class="weui-media-box__bd">
+                    <p class="weui-media-box__title">小米（MI）小米电视4A 标准版 55英寸 HDR 2GB+8GB 四核64位高性能处理器</p>
+                    <div class="detail">
+                        <span class="color">颜色：红色</span>
+                        <span class="weight">重量：14.6kg</span>
+                        <span class="count">X1</span>
+                    </div>
+                    <p class="price">￥5799</p>
+                </div>
+            </div>
+        </div>
+        <div class="comment">
+            <p class="title">备注信息：</p>
+            <div class="inputBox">
+                <textarea rows="7" class="content_value" placeholder="请在此处输入你需要备注的信息..."></textarea>
+            </div>
+        </div>
+        <div class="productTotal">
+            <p>商品金额 <span class="right">￥6200.00</span></p>
+            <p>运费<span class="msg">(总量：29kg)</span><span class="right">+￥80.00</span></p>
+        </div>
+        <div id="footerBox">
+            <div class="settlement">
+                <p onclick="order_submit(this)">提交订单</p>
+            </div>
+            <p>实付款:<span>￥</span><span class="cost_num">77.70</span></p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    </script>
+</body>

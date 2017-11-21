@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=0">
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/weui.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/jquery-weui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="lib/js/jquery-2.1.4.js"></script>
+    <script src="lib/js/jquery-weui.min.js"></script>
+    <script src="lib/js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div class="containe containe_carts">
+        <div class="headerBox">
+            <p>购物车</p>
+        </div>
+        <div class="shopOperate">
+            <p class="name">一加人深圳直营店</p>
+            <p class="note"><span class="sign">活动</span>活动产品，预购从速<img src="img/arrow_R.png"></p>
+            <div class="weui-media-box weui-media-box_appmsg m_weui-media-box">
+                <div class="weui-media-box__hd">
+                    <div class="weui-flex">
+                        <div class="weui-flex__item">
+                            <div class="weui-cells weui-cells_checkbox m_weui-cells_checkbox">
+                                <label class="weui-cell weui-check__label" for="s11">
+                                    <div class="weui-cell__hd">
+                                        <input type="checkbox" class="weui-check" name="checkbox1" id="s11" checked="checked">
+                                        <i class="weui-icon-checked"></i>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="weui-flex__item">
+                            <img class="weui-media-box__thumb" src="img/product_list.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-media-box__bd">
+                    <div class="content">
+                        <p class="msg">创维E366W+核智能酷开智能电视</p>
+                        <p class="weight">重量：14.5kg</p>
+                        <div class="operate">
+                            <p class="price">￥4300.00</p>
+                            <div class="container">
+                                <span class="subtract">-</span>
+                                <span class="count">1</span>
+                                <span class="add">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="settlementBox">
+            <div class="settlement">
+                <p>去结算（1）</p>
+            </div>
+            <div class="total">
+                <div class="weui-cells weui-cells_checkbox m_weui-cells_checkbox">
+                    <label class="weui-cell weui-check__label" for="s11">
+                        <div class="weui-cell__hd">
+                            <input type="checkbox" class="weui-check" name="checkbox1" id="s11" checked="checked">
+                            <i class="weui-icon-checked"></i>
+                        </div>
+                        <div class="weui-cell__bd">
+                            <p>全选</p>
+                        </div>
+                    </label>
+                </div>
+                <p>合计:￥<span class="cost_num">6540.00</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="weui-tabbar m_weui-tabbar">
+        <a href="#tab1" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_home.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a href="#tab2" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_category.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">分类</p>
+        </a>
+        <a href="#tab3" class="weui-tabbar__item weui-bar__item--on">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_category.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">购物车</p>
+        </a>
+        <a href="#tab4" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_category.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+    <script type="text/javascript">
+    </script>
+</body>

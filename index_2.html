@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=0">
+    <title>高保真分类</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/weui.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/jquery-weui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="lib/js/jquery-2.1.4.js"></script>
+    <script src="lib/js/jquery-weui.min.js"></script>
+    <script src="lib/js/swiper.min.js"></script>
+</head>
+<body>
+    <div class="containe containe_categories">
+        <div class="weui-search-bar m_weui-search-bar" id="searchBar">
+            <form class="weui-search-bar__form">
+                <div class="weui-search-bar__box">
+                    <i class="weui-icon-search"></i>
+                    <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+                    <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                </div>
+                <label class="weui-search-bar__label" id="searchText" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+                    <i class="weui-icon-search"></i>
+                    <span>请输入想搜索的商品关键词</span>
+                </label>
+            </form>
+            <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+        </div>
+        <div class="categories">
+            <div class="first_category">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" class="cate_tab choosed" choose_num="cate_0">女装</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="cate_tab" choose_num="cate_1">男装</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="second_category cate_0 choosed">
+                <div class="first_logo">
+                    <img src="img/banner_01.jpg">
+                </div>
+                <p class="title">热门分类</p>
+                <div class="groups">
+                    <a href="" class="item_group">
+                        <div class="show_img">
+                            <img src="img/tv.jpg">
+                        </div>
+                        <p>家用电器</p>
+                    </a>
+                    <a href="" class="item_group">
+                        <div class="show_img">
+                            <img src="img/tv.jpg">
+                        </div>
+                        <p>家用电器</p>
+                    </a>
+                    <a href="" class="item_group">
+                        <div class="show_img">
+                            <img src="img/tv.jpg">
+                        </div>
+                        <p>家用电器</p>
+                    </a>
+                    <a href="" class="item_group">
+                        <div class="show_img">
+                            <img src="img/tv.jpg">
+                        </div>
+                        <p>家用电器</p>
+                    </a>
+                </div>
+            </div>
+            <div class="second_category cate_1">
+                <div class="first_logo">
+                    <img src="img/banner_01.jpg">
+                </div>
+                <p class="title">热门分类</p>
+                <div class="groups">
+                    <a href="" class="item_group">
+                        <div class="show_img">
+                            <img src="img/tv.jpg">
+                        </div>
+                        <p>家用电器</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="weui-tabbar m_weui-tabbar">
+        <a href="#tab1" class="weui-tabbar__item weui-bar__item--on">
+            <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_home.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a href="#tab2" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_category.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">分类</p>
+        </a>
+        <a href="#tab3" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_category.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">购物车</p>
+        </a>
+        <a href="#tab4" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_category.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+
+    <script type="text/javascript">
+    $(".categories").outerHeight($(window).height()-100);//分类高度滚动
+    $('.first_category>ul>li>a').click(function() {
+        $('.first_category>ul>li>a').removeClass('choosed');
+        $(this).addClass('choosed');
+        var cate_number = $(this).attr('choose_num');
+        $('.second_category').removeClass('choosed');
+        $('.second_category.' + cate_number).addClass('choosed');
+    });
+    </script>
+</body>

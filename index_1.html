@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=0">
+    <title>高保真首页</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/weui.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/jquery-weui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="lib/js/jquery-2.1.4.js"></script>
+    <script src="lib/js/jquery-weui.min.js"></script>
+    <script src="lib/js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div class="containe">
+        <div class="banner">
+            <div class="swiper-container swiper-container_1">
+                <div class="swiper-wrapper">
+                    <a href="<%#= theme_image.link %>javascript:void(0)" class="swiper-slide ">
+                        <img src="img/banner_01.jpg">
+                    </a>
+                    <a href="<%#= theme_image.link %>javascript:void(0)" class="swiper-slide ">
+                        <img src="img/banner_01.jpg">
+                    </a>
+                    <a href="<%#= theme_image.link %>javascript:void(0)" class="swiper-slide ">
+                        <img src="img/banner_01.jpg">
+                    </a>
+                </div>
+                <div class="swiper-pagination swiper-pagination_1"></div>
+            </div>
+        </div>
+        <div class="searchBox">
+            <div class="shop_title">
+                <div class="shop_logo">
+                    <img src="img/shop_logo.png">
+                </div>
+                <p class="shop_name">蔡小龙的小店</p>
+            </div>
+            <div class="weui-search-bar m_weui-search-bar" id="searchBar">
+                <form class="weui-search-bar__form">
+                    <div class="weui-search-bar__box">
+                        <i class="weui-icon-search"></i>
+                        <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+                        <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                    </div>
+                    <label class="weui-search-bar__label" id="searchText" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+                        <i class="weui-icon-search"></i>
+                    </label>
+                </form>
+                <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+            </div>
+        </div>
+        <div class="buttonGroup">
+            <div class="weui-flex">
+                <div class="weui-flex__item">
+                    <a href="javascript:void(0)" class="button_a">电器</a>
+                </div>
+                <div class="weui-flex__item">
+                    <a class="button_a">母婴</a>
+                </div>
+                <div class="weui-flex__item">
+                    <a class="button_a">日用</a>
+                </div>
+                <div class="weui-flex__item">
+                    <a class="button_a">生活</a>
+                </div>
+            </div>
+            <div class="weui-flex">
+                <div class="weui-flex__item">
+                    <a class="button_a">土产</a>
+                </div>
+                <div class="weui-flex__item">
+                    <a class="button_a">进口</a>
+                </div>
+                <div class="weui-flex__item">
+                    <a class="button_a">品牌馆</a>
+                </div>
+                <div class="weui-flex__item">
+                    <a class="button_a">店主</a>
+                </div>
+            </div>
+        </div>
+        <div class="specialCommodity">
+            <div class="weui-flex">
+                <div class="weui-flex__item">
+                    <div class="container">
+                        <div class="title">
+                            <img src="img/icon_01.png"> 限时抢购
+                        </div>
+                        <div class="content content_1">
+                            <div class="weui-flex">
+                                <div class="weui-flex__item">
+                                    <div class="img">
+                                        <img src="img/iphone.jpg">
+                                    </div>
+                                </div>
+                                <div class="weui-flex__item">
+                                    <div class="price_time">
+                                        <p class="now_price">￥4988</p>
+                                        <p class="old_price">￥5388</p>
+                                        <div class="count_down">
+                                            <p><span>01</span>:<span>33</span>:<span>04</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button_box">
+                            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary m_button">立即抢购</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-flex__item">
+                    <div class="container">
+                        <div class="title">
+                            <img src="img/icon_01.png"> 天天优惠
+                        </div>
+                        <div class="content content_2">
+                            <div class="img">
+                                <img src="img/keyborad.jpg">
+                            </div>
+                            <p class="now_price">￥4988</p>
+                            <p class="old_price">￥5388</p>
+                        </div>
+                        <div class="button_box">
+                            <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary m_button">立即抢购</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hotCommodity">
+            <p class="title">热门商品</p>
+            <div class="content">
+                <div class="weui-flex">
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_1">
+                            <p class="comm_name">三星</p>
+                            <p class="comm_model">JU4355HJJ</p>
+                            <dir class="comm_img">
+                                <img src="img/sanxin.jpg" alt="">
+                            </dir>
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <div class="container">
+                            <div class="weui-flex m_weui-flex_1">
+                                <div class="weui-flex__item">
+                                    <a class="commodity_item type_2">
+                                        <p class="comm_name">三星</p>
+                                        <p class="comm_model">JU4355HJJ</p>
+                                        <dir class="comm_img">
+                                            <img src="img/sanxin.jpg" alt="">
+                                        </dir>
+                                    </a>
+                                </div>
+                                <div class="weui-flex__item">
+                                    <a class="commodity_item type_2">
+                                        <p class="comm_name">小米</p>
+                                        <p class="comm_model">JU4355HJJ</p>
+                                        <dir class="comm_img">
+                                            <img src="img/sanxin.jpg" alt="">
+                                        </dir>
+                                    </a>
+                                </div>
+                            </div>
+                            <a class="commodity_item type_3">
+                                <div class="weui-flex">
+                                    <div class="weui-flex__item">
+                                        <div class="comm_msg">
+                                            <p class="comm_name">创维</p>
+                                            <p class="comm_model">JU4355HJJ</p>
+                                        </div>
+                                    </div>
+                                    <div class="weui-flex__item">
+                                        <dir class="comm_img">
+                                            <img src="img/sanxin.jpg" alt="">
+                                        </dir>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newCommodity">
+            <p class="title">新品商品</p>
+            <div class="content">
+                <div class="weui-flex">
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_2">
+                            <p class="comm_name">三星</p>
+                            <p class="comm_model">JU4355HJJ</p>
+                            <dir class="comm_img">
+                                <img src="img/sanxin.jpg" alt="">
+                            </dir>
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_3">
+                            <div class="weui-flex">
+                                <div class="weui-flex__item">
+                                    <div class="comm_msg">
+                                        <p class="comm_name">创维</p>
+                                        <p class="comm_model">JU4355HJJ</p>
+                                    </div>
+                                </div>
+                                <div class="weui-flex__item">
+                                    <dir class="comm_img">
+                                        <img src="img/sanxin.jpg" alt="">
+                                    </dir>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_2">
+                            <p class="comm_name">三星</p>
+                            <p class="comm_model">JU4355HJJ</p>
+                            <dir class="comm_img">
+                                <img src="img/sanxin.jpg" alt="">
+                            </dir>
+                        </a>
+                    </div>
+                </div>
+                <div class="weui-flex">
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_2">
+                            <p class="comm_name">三星</p>
+                            <p class="comm_model">JU4355HJJ</p>
+                            <dir class="comm_img">
+                                <img src="img/sanxin.jpg" alt="">
+                            </dir>
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_3">
+                            <div class="weui-flex">
+                                <div class="weui-flex__item">
+                                    <div class="comm_msg">
+                                        <p class="comm_name">创维</p>
+                                        <p class="comm_model">JU4355HJJ</p>
+                                    </div>
+                                </div>
+                                <div class="weui-flex__item">
+                                    <dir class="comm_img">
+                                        <img src="img/sanxin.jpg" alt="">
+                                    </dir>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_2">
+                            <p class="comm_name">三星</p>
+                            <p class="comm_model">JU4355HJJ</p>
+                            <dir class="comm_img">
+                                <img src="img/sanxin.jpg" alt="">
+                            </dir>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foodSeafood">
+            <p class="title">食品海鲜</p>
+            <div class="content">
+                <div class="sub_banner">
+                    <div class="swiper-container swiper-container_2">
+                        <div class="swiper-wrapper">
+                            <a href="<%#= theme_image.link %>javascript:void(0)" class="swiper-slide ">
+                                <img src="img/banner_01.jpg">
+                            </a>
+                            <a href="<%#= theme_image.link %>javascript:void(0)" class="swiper-slide ">
+                                <img src="img/banner_01.jpg">
+                            </a>
+                            <a href="<%#= theme_image.link %>javascript:void(0)" class="swiper-slide ">
+                                <img src="img/banner_01.jpg">
+                            </a>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination_2"></div>
+                    </div>
+                </div>
+                <div class="weui-flex">
+                    <div class="weui-flex__item">
+                        <a class="item" href="">
+                            <p>清远鸡</p>
+                            <img src="img/food.jpg">
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="item" href="">
+                            <p>清远鸡</p>
+                            <img src="img/food.jpg">
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="item" href="">
+                            <p>清远鸡</p>
+                            <img src="img/food.jpg">
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="item" href="">
+                            <p>清远鸡</p>
+                            <img src="img/food.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="domesticAppliance">
+            <p class="title">家用电器</p>
+            <div class="content">
+                <div class="sub_banner">
+                    <div class="swiper-container swiper-container_3">
+                        <div class="swiper-wrapper">
+                            <a href="<%#= theme_image.link %>javascript:void(0)" class="swiper-slide ">
+                                <img src="img/banner_01.jpg">
+                            </a>
+                            <a href="<%#= theme_image.link %>javascript:void(0)" class="swiper-slide ">
+                                <img src="img/banner_01.jpg">
+                            </a>
+                            <a href="<%#= theme_image.link %>javascript:void(0)" class="swiper-slide ">
+                                <img src="img/banner_01.jpg">
+                            </a>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination_3"></div>
+                    </div>
+                </div>
+                <div class="weui-flex">
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_2">
+                            <p class="comm_name">小米</p>
+                            <p class="comm_model">JU4355HJJ</p>
+                            <dir class="comm_img">
+                                <img src="img/sanxin.jpg" alt="">
+                            </dir>
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_2">
+                            <p class="comm_name">小米</p>
+                            <p class="comm_model">JU4355HJJ</p>
+                            <dir class="comm_img">
+                                <img src="img/sanxin.jpg" alt="">
+                            </dir>
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_2">
+                            <p class="comm_name">小米</p>
+                            <p class="comm_model">JU4355HJJ</p>
+                            <dir class="comm_img">
+                                <img src="img/sanxin.jpg" alt="">
+                            </dir>
+                        </a>
+                    </div>
+                    <div class="weui-flex__item">
+                        <a class="commodity_item type_2">
+                            <p class="comm_name">小米</p>
+                            <p class="comm_model">JU4355HJJ</p>
+                            <dir class="comm_img">
+                                <img src="img/sanxin.jpg" alt="">
+                            </dir>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="weui-tabbar m_weui-tabbar">
+        <a href="#tab1" class="weui-tabbar__item weui-bar__item--on">
+            <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_home.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">首页</p>
+        </a>
+        <a href="#tab2" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_category.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">分类</p>
+        </a>
+        <a href="#tab3" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_category.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">购物车</p>
+        </a>
+        <a href="#tab4" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/icon_category.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">我的</p>
+        </a>
+    </div>
+    <script type="text/javascript">
+    var swiper_1 = new Swiper('.swiper-container_1', { //banner图片滑动
+        pagination: '.swiper-pagination_1',
+        paginationClickable: true,
+        // loop: true,
+    });
+    var swiper_2 = new Swiper('.swiper-container_2', { //banner图片滑动
+        pagination: '.swiper-pagination_2',
+        paginationClickable: true,
+        // loop: true,
+    });
+    var swiper_3 = new Swiper('.swiper-container_3', { //banner图片滑动
+        pagination: '.swiper-pagination_3',
+        paginationClickable: true,
+        // loop: true,
+    });
+    </script>
+</body>
+
+</html>
