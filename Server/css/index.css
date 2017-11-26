@@ -603,6 +603,31 @@ li {
     .productList .list_item .detail .count {
       float: right; }
 
+.infoGroup {
+  background-color: #ffffff;
+  margin-top: 12px; }
+  .infoGroup p {
+    padding: 0 16px;
+    color: #333333;
+    border-bottom: 1px solid #d7d7d7;
+    line-height: 46px; }
+    .infoGroup p .type1 {
+      float: right;
+      color: #666666; }
+    .infoGroup p .type2 {
+      float: right;
+      color: #999999; }
+  .infoGroup p:last-child {
+    border-bottom: none; }
+
+.containe_infoList .seal {
+  position: fixed;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 4%; }
+  .containe_infoList .seal img {
+    width: 100px; }
+
 .m_weui-search-bar {
   padding: 10px;
   background-color: #ffffff; }

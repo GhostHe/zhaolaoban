@@ -764,6 +764,40 @@ li{
     }
 }
 
+.infoGroup{
+    background-color: #ffffff;
+    margin-top: 12px;
+    p{
+        padding: 0 16px;
+        color: #333333;
+        border-bottom: 1px solid #d7d7d7;
+        line-height: 46px;
+        .type1{
+            float: right;
+            color: #666666;
+        }
+        .type2{
+            float: right;
+            color: #999999;
+        }
+    }
+    p:last-child{
+        border-bottom: none;
+    }
+}
+
+.containe_infoList{
+    .seal{
+        position: fixed;
+        left: 50%;
+        margin-left: -50px;
+        bottom: 4%;
+        img{
+            width: 100px;
+        }
+    }
+}
+
 .m_weui-search-bar{
     padding: 10px;
     background-color: #ffffff;
