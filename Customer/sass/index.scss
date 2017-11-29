@@ -1310,6 +1310,16 @@ li{
             line-height: 30px;
         }
     }
+    .close{
+        position: absolute;
+        right: 2%;
+        top: 4%;
+        width: 40px;
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
 }
 
 .headerBox{
