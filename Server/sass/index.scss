@@ -814,6 +814,57 @@ li{
     }
 }
 
+.collectionGroup{
+    padding: 3% 0.5%;
+    overflow: hidden;
+    .item{
+        display: block;
+        width: 45.5%;
+        float: left;
+        margin-left: 3%;
+        margin-bottom: 3%;
+        padding-bottom: 10px;
+        background-color: #ffffff;
+        .img{
+            position: relative;
+            img{
+                width: 100%;
+                display: block;
+            }
+            .delete{
+                position: absolute;
+                right: 6px;
+                top: 6px;
+                img{
+                    width: auto;
+                    height: 20px;
+                }
+            }
+        }
+        .name{
+            height: 52px;
+            padding: 10px;
+            overflow: hidden;
+            box-sizing: border-box;
+            p{
+                font-size: 13px;
+                line-height: 16px;
+                color: #323333;
+                -webkit-line-clamp: 2;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+        }
+        .price{
+            padding: 4px 10px 10px;
+            font-size: 16px;
+            line-height: 18px;
+            color: #e57e7e;
+        }
+    }
+}
+
 .m_weui-search-bar{
     padding: 10px;
     background-color: #ffffff;

@@ -641,6 +641,48 @@ li {
     color: #666666;
     line-height: 24px; }
 
+.collectionGroup {
+  padding: 3% 0.5%;
+  overflow: hidden; }
+  .collectionGroup .item {
+    display: block;
+    width: 45.5%;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    padding-bottom: 10px;
+    background-color: #ffffff; }
+    .collectionGroup .item .img {
+      position: relative; }
+      .collectionGroup .item .img img {
+        width: 100%;
+        display: block; }
+      .collectionGroup .item .img .delete {
+        position: absolute;
+        right: 6px;
+        top: 6px; }
+        .collectionGroup .item .img .delete img {
+          width: auto;
+          height: 20px; }
+    .collectionGroup .item .name {
+      height: 52px;
+      padding: 10px;
+      overflow: hidden;
+      box-sizing: border-box; }
+      .collectionGroup .item .name p {
+        font-size: 13px;
+        line-height: 16px;
+        color: #323333;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden; }
+    .collectionGroup .item .price {
+      padding: 4px 10px 10px;
+      font-size: 16px;
+      line-height: 18px;
+      color: #e57e7e; }
+
 .m_weui-search-bar {
   padding: 10px;
   background-color: #ffffff; }
