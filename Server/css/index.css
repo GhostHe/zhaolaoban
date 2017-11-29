@@ -628,6 +628,19 @@ li {
   .containe_infoList .seal img {
     width: 100px; }
 
+.helpCenter {
+  background-color: #f5f5f5;
+  padding: 10px 20px; }
+  .helpCenter .title {
+    font-size: 18px;
+    color: #1a191e;
+    line-height: 30px;
+    font-weight: 700; }
+  .helpCenter .content {
+    font-size: 13px;
+    color: #666666;
+    line-height: 24px; }
+
 .m_weui-search-bar {
   padding: 10px;
   background-color: #ffffff; }
