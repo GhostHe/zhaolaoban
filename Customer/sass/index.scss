@@ -1342,8 +1342,10 @@ li{
 }
 
 .shopOperate{
-    background-color: #ffffff;
-    margin-top: 12px;
+    .shop_item{
+        margin-top: 12px;
+        background-color: #ffffff;
+    }
     .name{
         margin: 0 14px;
         font-size: 17px;
@@ -1401,16 +1403,15 @@ li{
         .operate{
             .price{
                 display: inline-block;
-                line-height: 24px;
+                line-height: 28px;
                 color: #db7a7a;
                 font-size: 19px;
             }
             .container{
-                display: inline-block;
                 float: right;
                 span{
                     display: inline-block;
-                    line-height: 22px;
+                    line-height: 25px;
                     padding: 0 8px;
                     border: 1px solid #dfdfdf;
                     margin-left: -5px;
@@ -1457,6 +1458,7 @@ li{
             }
         }
         p{
+            margin-left: 10px;
             font-size: 17px;
             line-height: 44px;
             float: left;
