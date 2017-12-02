@@ -1270,6 +1270,14 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    .bg{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -10;
+    }
     .share_content{
         width: 90%;
         height: 80%;

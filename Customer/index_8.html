@@ -120,6 +120,7 @@
             </div>
         </div>
         <div class="shareBox" style="display: none;">
+            <div class="bg"></div>
             <div class="share_content">
                 <p class="note">成功邀请好友</p>
                 <p class="note">即可获得X%的比例分成</p>
@@ -135,16 +136,16 @@
                     <p>Customer  2017.10.9  已消费</p>
                 </div>
             </div>
-            <div class="close">
+            <!-- <div class="close">
                 <img src="img/close.png">
-            </div>
+            </div> -->
         </div>
     </div>
     <script type="text/javascript">
         $(".qrcode").click(function(){
             $(".shareBox").show();
         })
-        $(".close").click(function(){
+        $(".bg, .close").click(function(){
             $(".shareBox").hide();
         })
     </script>
