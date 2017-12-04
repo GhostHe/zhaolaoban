@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=0">
+    <title>客户列表</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/weui.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/jquery-weui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="lib/js/jquery-2.1.4.js"></script>
+    <script src="lib/js/jquery-weui.min.js"></script>
+</head>
+
+<body>
+    <div class="containe containe_customerList">
+        <div class="weui-search-bar m_weui-search-bar" id="searchBar">
+            <form class="weui-search-bar__form">
+                <div class="weui-search-bar__box">
+                    <!-- <i class="weui-icon-search"></i> -->
+                    <img src="img/icon_search.png">
+                    <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="搜索" required="">
+                    <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
+                </div>
+                <label class="weui-search-bar__label" id="searchText" style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">
+                    <!-- <i class="weui-icon-search"></i> -->
+                    <img src="img/icon_search.png">
+                    <span>搜索</span>
+                </label>
+            </form>
+            <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
+        </div>
+        <div class="customerList">
+            <a class="item">
+                <div class="weui-flex">
+                    <div class="weui-flex__item">
+                        <div class="logo">
+                            <img src="img/s_avatar_02.png">
+                        </div>
+                    </div>
+                    <div class="weui-flex__item">
+                        <div class="note">
+                            <p class="name">梁小嘎 <span>13927400852</span></p>
+                            <p class="msg">累计消费：¥<span>78.800.08</span></p>
+                        </div>
+                    </div>
+                    <div class="weui-flex__item">
+                        <div class="img">
+                            <img src="img/arrow_R.png">
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="item">
+                <div class="weui-flex">
+                    <div class="weui-flex__item">
+                        <div class="logo">
+                            <img src="img/s_avatar_02.png">
+                        </div>
+                    </div>
+                    <div class="weui-flex__item">
+                        <div class="note">
+                            <p class="name">梁小嘎 <span>13927400852</span></p>
+                            <p class="msg">累计消费：¥<span>78.800.08</span></p>
+                        </div>
+                    </div>
+                    <div class="weui-flex__item">
+                        <div class="img">
+                            <img src="img/arrow_R.png">
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="weui-tabbar m_weui-tabbar">
+        <a href="#tab2" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/s_iocn_home.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">店铺</p>
+        </a>
+        <a href="#tab3" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/s_iocn_customer.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">客户</p>
+        </a>
+        <a href="#tab4" class="weui-tabbar__item">
+            <div class="weui-tabbar__icon">
+                <img src="img/s_iocn_order_on.png" alt="">
+            </div>
+            <p class="weui-tabbar__label">订单</p>
+        </a>
+    </div>
+    <script type="text/javascript">
+    </script>
+</body>
