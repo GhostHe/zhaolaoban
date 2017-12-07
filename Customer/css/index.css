@@ -423,6 +423,13 @@ li {
       color: #ffffff;
       background-color: #ed9a97;
       border-radius: 2px; }
+  .userInfo .add {
+    display: inline-block;
+    padding: 0 10px;
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 13px;
+    background-color: red; }
   .userInfo .address {
     font-size: 15px;
     position: relative; }
@@ -515,11 +522,14 @@ li {
     background-color: #db7a7a;
     height: 56px;
     width: 104px; }
-    #footerBox .settlement p {
-      text-align: center;
-      color: #fff;
-      font-size: 16px;
-      text-indent: 0px; }
+    #footerBox .settlement button {
+      height: 100%;
+      width: 100%;
+      font-size: 17px;
+      background-color: #e57e7e;
+      color: #ffffff;
+      border: 0px;
+      border-radius: 0px; }
   #footerBox p {
     margin: 0px;
     text-align: left;
@@ -970,6 +980,25 @@ li {
 .productDetail .img_group img {
   width: 100%;
   display: block; }
+
+.productFooter .weui-tabbar__item {
+  border-left: 1px solid #d7d7d7;
+  flex: 3; }
+  .productFooter .weui-tabbar__item .weui-tabbar__label {
+    color: #666666 !important; }
+.productFooter .weui-bar__item--on .weui-tabbar__label {
+  color: #666666 !important; }
+.productFooter .weui-tabbar__item:last-child {
+  flex: 5;
+  padding: 0px; }
+  .productFooter .weui-tabbar__item:last-child button {
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    background-color: #e57e7e;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 0px; }
 
 .shareBox {
   position: fixed;

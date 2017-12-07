@@ -548,6 +548,7 @@ li{
         line-height: 30px;
         font-size: 16px;
         margin-bottom: 10px;
+
         .right{
             float: right;
         }
@@ -560,6 +561,14 @@ li{
             background-color: #ed9a97;
             border-radius: 2px;
         }
+    }
+    .add{
+        display: inline-block;
+        padding: 0 10px;
+        color: #ffffff;
+        line-height: 30px;
+        font-size: 13px;
+        background-color: red;
     }
     .address{
         font-size: 15px;
@@ -578,7 +587,6 @@ li{
             right: -20px;
             top: 0px;
         }
-
     }
     .border {
         width: 100%;
@@ -680,11 +688,14 @@ li{
         background-color: #db7a7a;
         height: 56px;
         width: 104px;
-        p {
-            text-align: center;
-            color: #fff;
-            font-size: 16px;
-            text-indent: 0px;
+        button {
+            height: 100%;
+            width: 100%;
+            font-size: 17px;
+            background-color: #e57e7e;
+            color: #ffffff;
+            border: 0px;
+            border-radius: 0px;
         }
     }
     p {
@@ -1256,6 +1267,34 @@ li{
         img{
             width: 100%;
             display: block;
+        }
+    }
+}
+
+.productFooter{
+    .weui-tabbar__item{
+        border-left: 1px solid #d7d7d7;
+        flex: 3;
+        .weui-tabbar__label{
+            color: #666666!important;
+        }
+    }
+    .weui-bar__item--on{
+        .weui-tabbar__label{
+            color: #666666!important;
+        }
+    }
+    .weui-tabbar__item:last-child{
+        flex: 5;
+        padding: 0px;
+        button{
+            height: 100%;
+            width: 100%;
+            font-size: 17px;
+            background-color: #e57e7e;
+            color: #ffffff;
+            border: 0px;
+            border-radius: 0px;
         }
     }
 }
