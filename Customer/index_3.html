@@ -37,6 +37,14 @@
                 <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
             </div>
         </div>
+        <div class="operationBox">
+            <div class="container">
+                <p><span class="new down">最新</span></p>
+                <p><span class="sales">销量</span></p>
+                <p><span class="price up down">价格</span></p>
+                <p><span class="fitter">筛选</span></p>
+            </div>
+        </div>
         <div class="productList">
             <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg m_weui-media-box list_item">
                 <div class="weui-media-box__hd">
@@ -62,7 +70,7 @@
                     <div class="detail">
                         <span class="sign">活动</span>
                         <span class="number">1800人付款</span>
-                        <span class="good"><img src="img/good.png"></span>
+                        <span class="good"><img src="img/good_not.png"></span>
                     </div>
                 </div>
             </a>
@@ -81,8 +89,56 @@
                 </div>
             </a>
         </div>
+        <div class="fitterBox">
+            <div class="condition_box">
+                <p class="title">文字 <span><img src="img/icon_local_2.png">广东深圳宝安区</span></p>
+                <div class="set">
+                    <p><a href="javascript:void(0)">促销条件</a></p>
+                    <p><a href="javascript:void(0)">XX条件</a></p>
+                    <p><a href="javascript:void(0)"  class="on">仅看有货</a></p>
+                </div>
+            </div>
+            <div class="price_box">
+                <p class="title">价格区间</p>
+                <div class="input_price">
+                    <input type="" name="" placeholder="最低价">
+                    <span class="middle_line"></span>
+                    <input type="" name="" placeholder="最高价">
+                </div>
+                <div class="set">
+                    <p><a href="javascript:void(0)">660-1234</a></p>
+                    <p><a href="javascript:void(0)">660-1234</a></p>
+                    <p><a href="javascript:void(0)">660-1234</a></p>
+                </div>
+            </div>
+            <div class="button_group">
+                <a onclick="resetFitter()" href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary m_button m_button_type_1">重置</a>
+                <a onclick="submitFitter()" href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary m_button">确定</a>
+            </div>
+        </div>
     </div>
-
     <script type="text/javascript">
+        $("body").on("click", ".operationBox .fitter", function(){
+            $(".fitterBox").show();
+        })
+
+        $(".condition_box .set a").click(function(){
+            $(".condition_box .set a").removeClass("on");
+            $(this).addClass("on");
+        })
+
+        $(".price_box .set a").click(function(){
+            $(".price_box .set a").removeClass("on");
+            $(this).addClass("on");
+        })
+
+        function resetFitter() {
+            $(".set a").removeClass("on");
+            $(".input_price input").val("");
+        }
+
+        function submitFitter() {
+            $(".fitterBox").hide();
+        }
     </script>
 </body>
