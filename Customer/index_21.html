@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=0">
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/weui.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/jquery-weui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="lib/js/jquery-2.1.4.js"></script>
+    <script src="lib/js/jquery-weui.min.js"></script>
+    <script src="lib/js/swiper.min.js"></script>
+</head>
+<body>
+    <div class="containe containe_signUP">
+        <div class="loginBox">
+            <div class="avatar">
+                <img src="img/login_avatar.png">
+            </div>
+            <form>
+                <ul>
+                    <li class="type_1">
+                        <span>账号</span>
+                        <input type="" name="" placeholder="请输入手机号">
+                        <a href="javascript:;" class="weui-btn weui-btn_mini weui-btn_primary m_button m_button_type_1">获取验证码</a>
+                    </li>
+                    <li>
+                        <span>验证码</span>
+                        <input type="" name="" placeholder="请输入手机号验证码">
+                    </li>
+                    <li>
+                        <span>输入密码</span>
+                        <input id="password_input" type=password"" name="" placeholder="请输入8位以上密码">
+                        <span class="eye" onclick="hideShowPsw()"><img src="img/eye.png"></span>
+                    </li>
+                    <li>
+                        <span>确认密码</span>
+                        <input type="" name="" placeholder="请输入手机号验证码">
+                    </li>
+                </ul>
+                <div class="submit">
+                    <a class="weui-btn weui-btn_mini weui-btn_primary m_button">注册</a>
+                </div>
+            </form>
+            <div class="clause">
+                <a href="">
+                    <img src="img/agree.png">
+                    同意服务协议
+                </a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var demoInput = document.getElementById("password_input");
+        //隐藏text block，显示password block
+        function hideShowPsw(){
+            if (demoInput.type == "password") {
+                demoInput.type = "text";
+            }else {
+                demoInput.type = "password";
+            }
+        }
+    </script>
+</body>

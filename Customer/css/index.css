@@ -1064,89 +1064,96 @@ li {
 .containe_login {
   height: 100%;
   padding: 0px; }
-  .containe_login .loginBox .avatar {
-    padding: 6vw 0px 10.6vw;
-    text-align: center; }
-    .containe_login .loginBox .avatar img {
-      width: 24vw;
-      height: 24vw;
-      border-radius: 50%; }
-  .containe_login .loginBox ul {
-    background-color: #ffffff; }
-    .containe_login .loginBox ul li {
-      margin: 0px 4.8vw;
-      border-bottom: 1px solid #d7d7d7;
-      overflow: hidden; }
-      .containe_login .loginBox ul li span {
-        padding: 6px 0px;
-        width: 20%;
-        display: block;
-        float: left;
-        line-height: 8.64vw;
-        font-size: 4.1vw;
-        vertical-align: middle; }
-      .containe_login .loginBox ul li input {
-        margin: 6px 0px;
-        width: 70%;
-        font-size: 3.6vw;
-        line-height: 8.64vw;
-        border: none;
-        vertical-align: middle; }
-      .containe_login .loginBox ul li .eye {
-        width: 10%;
-        float: right;
-        text-align: right;
-        vertical-align: middle; }
-        .containe_login .loginBox ul li .eye img {
-          height: 3.4vw; }
-    .containe_login .loginBox ul li:last-child {
-      border-bottom: 0px solid #d7d7d7; }
-    .containe_login .loginBox ul .type_1 input {
-      width: 30%; }
-    .containe_login .loginBox ul .type_1 a {
-      float: right;
-      margin-top: 1.5vw;
-      border: 1px solid #e57e7e; }
-  .containe_login .loginBox .tool {
-    padding: 0 20px;
-    margin-top: 2.4vw;
-    height: 3.2vw;
+
+.loginBox .avatar {
+  padding: 6vw 0px 10.6vw;
+  text-align: center; }
+  .loginBox .avatar img {
+    width: 24vw;
+    height: 24vw;
+    border-radius: 50%; }
+.loginBox ul {
+  background-color: #ffffff; }
+  .loginBox ul li {
+    margin: 0px 4.8vw;
+    border-bottom: 1px solid #d7d7d7;
     overflow: hidden; }
-    .containe_login .loginBox .tool a {
-      display: inline-block;
-      float: left;
-      color: #b1d589;
-      font-size: 3.2vw;
-      line-height: 3.2vw; }
-    .containe_login .loginBox .tool .forget {
-      display: inline-block;
-      float: right; }
-  .containe_login .loginBox .submit {
-    background-color: #f0f0f0;
-    padding: 9.6vw 0px 0px;
-    text-align: center; }
-    .containe_login .loginBox .submit .m_button {
+    .loginBox ul li span {
+      padding: 6px 0px;
+      width: 20%;
       display: block;
-      width: 60%;
-      font-size: 4.8vw;
-      line-height: 10.6vw; }
-  .containe_login .loginBox .wechat_login {
-    padding: 22vw 0px;
-    text-align: center; }
-    .containe_login .loginBox .wechat_login a {
-      color: #b1d589;
-      font-size: 4.75vw; }
-      .containe_login .loginBox .wechat_login a img {
-        height: 10.56vw;
-        vertical-align: middle; }
-  .containe_login .loginBox .clause {
-    text-align: center; }
-    .containe_login .loginBox .clause a {
-      color: #b1d589;
-      font-size: 3.6vw; }
-      .containe_login .loginBox .clause a img {
-        height: 4.1vw;
-        vertical-align: middle; }
+      float: left;
+      line-height: 8.64vw;
+      font-size: 4.1vw;
+      vertical-align: middle; }
+    .loginBox ul li input {
+      margin: 6px 0px;
+      width: 70%;
+      font-size: 3.6vw;
+      line-height: 8.64vw;
+      border: none;
+      vertical-align: middle; }
+    .loginBox ul li .eye {
+      width: 10%;
+      float: right;
+      text-align: right;
+      vertical-align: middle; }
+      .loginBox ul li .eye img {
+        height: 3.4vw; }
+  .loginBox ul li:last-child {
+    border-bottom: 0px solid #d7d7d7; }
+  .loginBox ul .type_1 input {
+    width: 30%; }
+  .loginBox ul .type_1 a {
+    float: right;
+    font-size: 3.38vw;
+    margin-top: 1.5vw;
+    border: 1px solid #e57e7e; }
+.loginBox .tool {
+  padding: 0 20px;
+  margin-top: 2.4vw;
+  height: 3.2vw;
+  overflow: hidden; }
+  .loginBox .tool a {
+    display: inline-block;
+    float: left;
+    color: #b1d589;
+    font-size: 3.2vw;
+    line-height: 3.2vw; }
+  .loginBox .tool .forget {
+    display: inline-block;
+    float: right; }
+.loginBox .submit {
+  background-color: #f0f0f0;
+  padding: 9.6vw 0px 0px;
+  text-align: center; }
+  .loginBox .submit .m_button {
+    display: block;
+    width: 60%;
+    font-size: 4.8vw;
+    line-height: 10.6vw; }
+.loginBox .wechat_login {
+  padding: 22vw 0px;
+  text-align: center; }
+  .loginBox .wechat_login a {
+    color: #b1d589;
+    font-size: 4.75vw; }
+    .loginBox .wechat_login a img {
+      height: 10.56vw;
+      vertical-align: middle; }
+.loginBox .clause {
+  position: fixed;
+  width: 50%;
+  bottom: 3vw;
+  left: 50%;
+  margin-left: -25%;
+  text-align: center; }
+  .loginBox .clause a {
+    color: #b1d589;
+    font-size: 3.6vw; }
+    .loginBox .clause a img {
+      height: 4.1vw;
+      vertical-align: middle; }
 
 .productBanner {
   width: 100%;
