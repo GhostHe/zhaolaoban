@@ -1027,11 +1027,6 @@ li {
 .formBox {
   background-color: #ffffff;
   margin-top: 16px; }
-  .formBox .avatar {
-    height: 100px;
-    text-align: center; }
-    .formBox .avatar img {
-      height: 100%; }
   .formBox form {
     /*padding: 0px 20px;*/ }
   .formBox ul li {
@@ -1040,12 +1035,12 @@ li {
     .formBox ul li span {
       display: inline-block;
       width: 30%;
-      line-height: 48px;
-      font-size: 17px; }
+      line-height: 11.59vw;
+      font-size: 4.11vw; }
     .formBox ul li input {
       width: 60%;
-      font-size: 15px;
-      line-height: 36px;
+      font-size: 3.66vw;
+      line-height: 8.7vw;
       border: none; }
   .formBox ul li:last-child {
     border-bottom: 0px solid #d7d7d7; }
@@ -1053,7 +1048,9 @@ li {
     width: 30%; }
   .formBox ul .type_1 a {
     float: right;
-    margin-top: 6px;
+    margin-top: 1.5vw;
+    padding: 0 2.4vw;
+    font-size: 3.4vw;
     border: 1px solid #e57e7e; }
   .formBox .submit {
     background-color: #f0f0f0;

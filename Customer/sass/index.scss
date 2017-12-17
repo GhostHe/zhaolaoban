@@ -1301,13 +1301,6 @@ li{
 .formBox{
     background-color: #ffffff;
     margin-top: 16px;
-    .avatar{
-        height: 100px;
-        text-align: center;
-        img{
-            height: 100%;
-        }
-    }
     form{
         /*padding: 0px 20px;*/
     }
@@ -1318,13 +1311,13 @@ li{
             span{
                 display: inline-block;
                 width: 30%;
-                line-height: 48px;
-                font-size: 17px;
+                line-height: 11.59vw;
+                font-size: 4.11vw;
             }
             input{
                 width: 60%;
-                font-size: 15px;
-                line-height: 36px;
+                font-size: 3.66vw;
+                line-height: 8.7vw;
                 border: none;
             }
         }
@@ -1337,7 +1330,9 @@ li{
             }
             a{
                 float: right;
-                margin-top: 6px;
+                margin-top: 1.5vw;
+                padding: 0 2.4vw;
+                font-size: 3.4vw;
                 border: 1px solid #e57e7e;
             }
         }
