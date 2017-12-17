@@ -798,6 +798,80 @@ li{
     }
 }
 
+.invoiceBox{
+    margin-top: 12px;
+    ul{
+        li{
+            position: relative;
+            padding: 3vw 16px;
+            color: #333333;
+            background-color: #ffffff;
+            border-bottom: 1px solid #d7d7d7;
+            overflow: hidden;
+            p{
+                float: left;
+                display: inline-block;
+                font-size: 4vw;
+                line-height: 4.4vw;
+                width: 24%;
+                vertical-align: middle;
+            }
+            .input,
+            input{
+                float: left;
+                display: block;
+                width: 70%;
+                font-size: 3.75vw;
+                line-height: 4.4vw;
+                border: none;
+            }
+            .right{
+                position: absolute;
+                display: block;
+                top: 3vw;
+                right: 16px;
+                height: 4.4vw;
+            }
+        }
+        li:last-child{
+            border-bottom: none;
+        }
+        li.margin{
+            margin-top: 12px;
+        }
+    }
+    ul.type_2{
+        li{
+            overflow: hidden;
+            p{
+                float: left;
+            }
+            .input,
+            input{
+                display: block;
+                float: right;
+                text-align: right;
+            }
+            .select{
+                margin-right: 3vw;
+            }
+        }
+    }
+    .button_group{
+        margin-top: 11vw;
+        .m_button{
+            display: block;
+            width: 60%;
+            font-size: 4.8vw;
+            line-height: 10.6vw;
+            color: #ffffff;
+        }
+        .m_button_type_2{
+            background-color: #d7d7d7;
+        }
+    }
+}
+
 .helpCenter{
     background-color: #f5f5f5;
     padding: 10px 20px;
@@ -1297,6 +1371,9 @@ li{
     border-radius: 30px;
     padding: 0 10px;
     font-size: 14px;
+}
+.m_button:after{
+    border: none;
 }
 
 .m_button_type_1{
