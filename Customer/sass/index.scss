@@ -725,18 +725,17 @@ li{
         padding: 0px 40px;
     }
     .msg{
-        line-height: 30px;
-        font-size: 16px;
+        line-height: 7.23vw;
+        font-size: 3.9vw;
         margin-bottom: 10px;
-
         .right{
             float: right;
         }
         .default{
-            font-size: 13px;
-            line-height: 20px;
+            font-size: 3.2vw;
+            line-height: 4.84vw;
             display: inline-block;
-            padding: 0px 10px;
+            padding: 0px 2.42vw;
             color: #ffffff;
             background-color: #ed9a97;
             border-radius: 2px;
@@ -744,27 +743,27 @@ li{
     }
     .add{
         display: inline-block;
-        padding: 0 10px;
+        padding: 0 2.42vw;
         color: #ffffff;
-        line-height: 30px;
-        font-size: 13px;
+        font-size: 3.2vw;
+        line-height: 4.84vw;
         background-color: red;
     }
     .address{
-        font-size: 15px;
+        font-size: 3.64vw;
         position: relative;
         .local{
             display: block;
             position: absolute;
-            height: 20px;
+            height: 4.48vw;
             left: -16px;
             top: 2px;
         }
         .arrow{
             display: block;
             position: absolute;
-            height: 20px;
-            right: -20px;
+            height: 4.48vw;
+            right: -4.48vw;
             top: 0px;
         }
     }
@@ -780,20 +779,21 @@ li{
     .list_item{
         background-color: #ffffff;
         p{
-            font-size: 15px;
-            line-height: 20px;
+            font-size: 3.64vw;
+            line-height: 4.84vw;
         }
         .price{
             color: #db7a7a;
-            font-size: 19px;
-            line-height: 40px;
+            font-size: 4.6vw;
+            line-height: 9.7vw;
         }
         .detail{
             padding: 4px 0px 0px;
+            font-size: 3.64vw;
             .sign{
                 display: inline-block;
                 padding: 0px 6px;
-                line-height: 20px;
+                line-height: 4.84vw;
                 color: #db7a7a;
                 border: 1px solid #db7a7a;
                 border-radius: 4px;
@@ -805,7 +805,7 @@ li{
                 float: right;
                 vertical-align: middle;
                 img{
-                    width: 20px;
+                    width: 4.84vw;
                     margin-top: 4px;
                 }
             }
@@ -842,8 +842,8 @@ li{
     padding: 10px 20px;
     background-color: #ffffff;
     p{
-        line-height: 30px;
-        font-size: 16px;
+        line-height: 7.6vw;
+        font-size: 3.9vw;
         .msg{
             color: #a09f9f;
         }
@@ -869,20 +869,21 @@ li{
         height: 56px;
         width: 104px;
         button {
-            height: 100%;
+            height: 56px;
             width: 100%;
-            font-size: 17px;
+            font-size: 4.1vw;
+            line-height: 56px;
             background-color: #e57e7e;
             color: #ffffff;
             border: 0px;
             border-radius: 0px;
         }
     }
-    p {
+    p{
         margin: 0px;
         text-align: left;
         text-indent: 24px;
-        font-size: 20px;
+        font-size: 4.84vw;
         height: 56px;
         line-height: 56px;
         color: #db7a7a;
@@ -890,8 +891,8 @@ li{
     a{
         width: 40%;
         margin-left: 5%;
-        line-height: 40px;
-        font-size: 18px;
+        line-height: 56px;
+        font-size: 4.36vw;
     }
     a:nth-child{
         float: right;
@@ -1406,7 +1407,7 @@ li{
         }
         .type_1{
             input{
-                width: 30%;
+                width: 50%;
             }
             a{
                 float: right;

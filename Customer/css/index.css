@@ -570,40 +570,40 @@ li {
   .userInfo .container {
     padding: 0px 40px; }
   .userInfo .msg {
-    line-height: 30px;
-    font-size: 16px;
+    line-height: 7.23vw;
+    font-size: 3.9vw;
     margin-bottom: 10px; }
     .userInfo .msg .right {
       float: right; }
     .userInfo .msg .default {
-      font-size: 13px;
-      line-height: 20px;
+      font-size: 3.2vw;
+      line-height: 4.84vw;
       display: inline-block;
-      padding: 0px 10px;
+      padding: 0px 2.42vw;
       color: #ffffff;
       background-color: #ed9a97;
       border-radius: 2px; }
   .userInfo .add {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 2.42vw;
     color: #ffffff;
-    line-height: 30px;
-    font-size: 13px;
+    font-size: 3.2vw;
+    line-height: 4.84vw;
     background-color: red; }
   .userInfo .address {
-    font-size: 15px;
+    font-size: 3.64vw;
     position: relative; }
     .userInfo .address .local {
       display: block;
       position: absolute;
-      height: 20px;
+      height: 4.48vw;
       left: -16px;
       top: 2px; }
     .userInfo .address .arrow {
       display: block;
       position: absolute;
-      height: 20px;
-      right: -20px;
+      height: 4.48vw;
+      right: -4.48vw;
       top: 0px; }
   .userInfo .border {
     width: 100%; }
@@ -613,18 +613,19 @@ li {
 .productList .list_item {
   background-color: #ffffff; }
   .productList .list_item p {
-    font-size: 15px;
-    line-height: 20px; }
+    font-size: 3.64vw;
+    line-height: 4.84vw; }
   .productList .list_item .price {
     color: #db7a7a;
-    font-size: 19px;
-    line-height: 40px; }
+    font-size: 4.6vw;
+    line-height: 9.7vw; }
   .productList .list_item .detail {
-    padding: 4px 0px 0px; }
+    padding: 4px 0px 0px;
+    font-size: 3.64vw; }
     .productList .list_item .detail .sign {
       display: inline-block;
       padding: 0px 6px;
-      line-height: 20px;
+      line-height: 4.84vw;
       color: #db7a7a;
       border: 1px solid #db7a7a;
       border-radius: 4px; }
@@ -634,7 +635,7 @@ li {
       float: right;
       vertical-align: middle; }
       .productList .list_item .detail .good img {
-        width: 20px;
+        width: 4.84vw;
         margin-top: 4px; }
     .productList .list_item .detail .color, .productList .list_item .detail .weight {
       color: #b4b3b3; }
@@ -660,8 +661,8 @@ li {
   padding: 10px 20px;
   background-color: #ffffff; }
   .productTotal p {
-    line-height: 30px;
-    font-size: 16px; }
+    line-height: 7.6vw;
+    font-size: 3.9vw; }
     .productTotal p .msg {
       color: #a09f9f; }
     .productTotal p .right {
@@ -683,9 +684,10 @@ li {
     height: 56px;
     width: 104px; }
     #footerBox .settlement button {
-      height: 100%;
+      height: 56px;
       width: 100%;
-      font-size: 17px;
+      font-size: 4.1vw;
+      line-height: 56px;
       background-color: #e57e7e;
       color: #ffffff;
       border: 0px;
@@ -694,15 +696,15 @@ li {
     margin: 0px;
     text-align: left;
     text-indent: 24px;
-    font-size: 20px;
+    font-size: 4.84vw;
     height: 56px;
     line-height: 56px;
     color: #db7a7a; }
   #footerBox a {
     width: 40%;
     margin-left: 5%;
-    line-height: 40px;
-    font-size: 18px; }
+    line-height: 56px;
+    font-size: 4.36vw; }
   #footerBox a:nth-child {
     float: right;
     margin-left: 0%;
@@ -1103,7 +1105,7 @@ li {
   .loginBox ul li:last-child {
     border-bottom: 0px solid #d7d7d7; }
   .loginBox ul .type_1 input {
-    width: 30%; }
+    width: 50%; }
   .loginBox ul .type_1 a {
     float: right;
     font-size: 3.38vw;
