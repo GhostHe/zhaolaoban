@@ -698,17 +698,22 @@ li {
     text-indent: 24px;
     font-size: 4.84vw;
     height: 56px;
-    line-height: 56px;
     color: #db7a7a; }
-  #footerBox a {
-    width: 40%;
-    margin-left: 5%;
-    line-height: 56px;
-    font-size: 4.36vw; }
-  #footerBox a:nth-child {
-    float: right;
-    margin-left: 0%;
-    margin-right: 5%; }
+  #footerBox .button_group {
+    overflow: hidden;
+    padding: 6px 0px; }
+    #footerBox .button_group a {
+      display: block;
+      float: left;
+      width: 40%;
+      margin-left: 5%;
+      font-size: 4.36vw;
+      padding: 0px; }
+    #footerBox .button_group a:nth-child(2) {
+      float: right;
+      margin-top: 0px;
+      margin-left: 0%;
+      margin-right: 5%; }
 
 .successBanner {
   background-color: #ffffff;

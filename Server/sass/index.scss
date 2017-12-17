@@ -967,6 +967,55 @@ li{
     }
 }
 
+.shopStyleGroup{
+    padding: 3% 0.5%;
+    overflow: hidden;
+    .item{
+        display: block;
+        width: 45.5%;
+        float: left;
+        margin-left: 3%;
+        margin-bottom: 3%;
+        padding: 5.3vw 0;
+        background-color: #ffffff;
+        text-align: center;
+        img{
+            height: 36.8vw;
+        }
+    }
+}
+
+.shopStylePreview{
+    margin: 3.8vw 2.9vw;
+    .banner{
+        padding: 4.5vw;
+        overflow: hidden;
+        text-align: center;
+        background-color: #ffffff;
+        img{
+            height: 54.3vw;
+        }
+    }
+    .button_group{
+        overflow: hidden;
+        margin-top: 10.7vw;
+        a{
+            display: block;
+            float: left;
+            width: 40%;
+            margin-left: 5%;
+            font-size: 4.36vw;
+            padding: 0px;
+        }
+        a:nth-child(2){
+            float: right;
+            margin-top: 0px;
+            margin-left: 0%;
+            margin-right: 5%;
+        }
+    }
+}
+
 .containe_customerList{
     .m_weui-search-bar{
         .weui-search-bar__label {
