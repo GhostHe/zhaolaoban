@@ -2138,6 +2138,77 @@ li{
 }
 
 
+.alertMsgBox{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    .bg{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+        z-index: -1;
+    }
+    .alert{
+        margin-top: 30vh;
+        .container{
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .content.type_1{
+                border-radius: 10px;
+                width: 78vw;
+                background-color: #ffffff;
+                .msg{
+                    padding: 10vw 0vw;
+                    p{
+                        text-align: center;
+                        font-size: 6.4vw;
+                        line-height: 7vw;
+                    }
+                }
+                .operate{
+                    border-top: 1px solid #adadad;
+                    text-align: center;
+                    button,
+                    p{
+                        padding: 3.3vw 0vw;
+                        text-align: center;
+                        font-size: 4.5vw;
+                        color: #318ff0;
+                    }
+                }
+            }
+            .content.type_2{
+                border-radius: 10px;
+                width: 62vw;
+                background-color: #303030;
+                padding: 10.8vw 0vw;
+                .sign{
+                    text-align: center;
+                    padding-bottom: 4vw;
+                    img{
+                        height: 6.4vw;
+                    }
+                }
+                .msg{
+                    p{
+                        text-align: center;
+                        font-size: 4.5vw;
+                        line-height: 5vw;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .m_weui-search-bar{
     padding: 10px;
     background-color: #ffffff;

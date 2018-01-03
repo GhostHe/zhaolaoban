@@ -1670,6 +1670,62 @@ li {
     border: none;
     background-color: #db7a7a; }
 
+.alertMsgBox {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%; }
+  .alertMsgBox .bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1; }
+  .alertMsgBox .alert {
+    margin-top: 30vh; }
+    .alertMsgBox .alert .container {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .alertMsgBox .alert .container .content.type_1 {
+        border-radius: 10px;
+        width: 78vw;
+        background-color: #ffffff; }
+        .alertMsgBox .alert .container .content.type_1 .msg {
+          padding: 10vw 0vw; }
+          .alertMsgBox .alert .container .content.type_1 .msg p {
+            text-align: center;
+            font-size: 6.4vw;
+            line-height: 7vw; }
+        .alertMsgBox .alert .container .content.type_1 .operate {
+          border-top: 1px solid #adadad;
+          text-align: center; }
+          .alertMsgBox .alert .container .content.type_1 .operate button,
+          .alertMsgBox .alert .container .content.type_1 .operate p {
+            padding: 3.3vw 0vw;
+            text-align: center;
+            font-size: 4.5vw;
+            color: #318ff0; }
+      .alertMsgBox .alert .container .content.type_2 {
+        border-radius: 10px;
+        width: 62vw;
+        background-color: #303030;
+        padding: 10.8vw 0vw; }
+        .alertMsgBox .alert .container .content.type_2 .sign {
+          text-align: center;
+          padding-bottom: 4vw; }
+          .alertMsgBox .alert .container .content.type_2 .sign img {
+            height: 6.4vw; }
+        .alertMsgBox .alert .container .content.type_2 .msg p {
+          text-align: center;
+          font-size: 4.5vw;
+          line-height: 5vw;
+          color: #ffffff; }
+
 .m_weui-search-bar {
   padding: 10px;
   background-color: #ffffff; }
